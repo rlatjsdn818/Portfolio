@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "김선우",
-    "job": "게임 QA",
+    "job": "게임 QA, 아트",
     "introduction": "게임 내 문제점을 검사하여 게임에 미흡한 점이 있는지 확인합니다, 간단한 일러스트, 트레일러 제작도 가능합니다.",
     "email": "kavdude7@gmail.com",
     "github": "https://github.com/rlatjsdn818",
@@ -13,10 +13,104 @@
     "Unity",
     "Github",
     "Adobe Photoshop",
-    "Illustrator",
-    "Premiere"
+    "Adobe Illustrator",
+    "Adobe Premiere Pro"
   ],
   "projects": [
+    {
+      "id": "manoria",
+      "title": "Manoria",
+      "thumbnail": "images/manospr.png",
+      "description": "중세 영주가 되어 코인으로 정책을 펼치고, 영지 카드로 영지를 발전시키며 상대를 견제해 가장 먼저 5개의 명성을 차지하는 전략 보드게임.",
+      "genre": "전략",
+      "platform": "보드게임",
+      "period": "2026.09 ~ 진행 중",
+      "team": {
+        "size": 4,
+        "myRole": "아트, QA"
+      },
+      "contributions": [
+        "카드 이미지 제작",
+        "게임 플레이 테스트 후 QA",
+        "플레이 영상 제작"
+      ],
+      "problemSolving": [
+        {
+          "problem": "플레이 테스트 도중 카드의 가시성이 어딘가 불편하다는 느낌을 받았다.",
+          "solution": "카드에 써져있는 지출 비용 아이콘을 이미지 위가 아닌 오히려 배경이 어두운 카드의 밑에 두어 조금 더 가시성을 확보 시켰음.",
+          "result": "어두운 배경 위에 올려둠으로써 카드의 비용이 잘 안보였던 문제가 완화됨."
+        }
+      ],
+      "links": {
+        "play": "NaN",
+        "video": "https://www.youtube.com/watch?v=5fe1MsKlZPs",
+        "github": "NaN",
+        "document": "https://drive.google.com/drive/folders/1CW4PRJEIuzBlYs02sM__It9z_w_TLgRk"
+      }
+    },
+    {
+      "id": "veerscape",
+      "title": "Veerscape",
+      "thumbnail": "images/ball.png",
+      "description": "클릭을 해서 궤도를 바꾸는 간단한 원클릭 액션으로 장애물을 피해가면서 제일 먼 거리까지 가며 최고 기록을 쌓는 게임.",
+      "genre": "아케이드, 액션",
+      "platform": "PC",
+      "period": "2026.09 ~ 진행 중",
+      "team": {
+        "size": 4,
+        "myRole": "1인 개발"
+      },
+      "contributions": [
+        "게임의 전반적인 기획",
+        "게임 시스템 구현",
+        "게임 아트 구현"
+      ],
+      "problemSolving": [
+        {
+          "problem": "'Near Miss' 메커니즘이 작동할때 프레임 드랍이 생기면서 히트박스도 어긋남, 게임 플레이 자체가 너무 불편해지고 예측하기 어려워짐",
+          "solution": "",
+          "result": ""
+        }
+      ],
+      "links": {
+        "play": "NaN",
+        "video": "NaN",
+        "github": "https://github.com/rlatjsdn818/veerscape_01.git",
+        "document": "https://docs.google.com/presentation/d/1MkGvkHzuGCghD-f2O2mUouxkTUqV__Nz/edit?usp=sharing&ouid=104350076445120411245&rtpof=true&sd=true"
+      }
+    },
+    {
+      "id": "legacy-of-dungeon",
+      "title": "Legacy of Dungeon",
+      "thumbnail": "images/sprite.jpg",
+      "description": "100년 전 대전쟁의 잔재가 독자적인 생태계로 진화한 미지의 던전을 탐험하는 로그라이크 게임입니다.",
+      "genre": "액션, 전략",
+      "platform": "PC",
+      "period": "2026.04 ~ 2026.09",
+      "team": {
+        "size": 4,
+        "myRole": "아트, QA"
+      },
+      "contributions": [
+        "몬스터 스프라이트 제작",
+        "카드 이미지 제작",
+        "트레일러 영상 제작",
+        "게임 QA"
+      ],
+      "problemSolving": [
+        {
+          "problem": "몬스터 이미지 제작 시 게임의 전반적인 느낌하고 부자연스러운 부분이 자주 보였음 (AI 사용으로 인해서)",
+          "solution": "임시 방편으로 게임의 Placeholder 몬스터 디자인을 직접 그림.",
+          "result": "괴리감이 덜 해짐"
+        }
+      ],
+      "links": {
+        "play": "https://store.onstove.com/ko/games/104874",
+        "video": "https://www.youtube.com/watch?v=ciVHZtjWxMw",
+        "github": "https://github.com/Taehyeon88/Graduation-project.git",
+        "document": "https://drive.google.com/drive/folders/154B8CXfhegyMfTWuWTuAdZtaYTVfkj2K"
+      }
+    },
     {
       "id": "escape-the-island",
       "title": "Escape The Island",
@@ -52,7 +146,7 @@
     {
       "id": "operation-snackstorm",
       "title": "Operation: Snackstorm",
-      "thumbnail": "images/1_1이미지_ts_1765390246631.jpg",
+      "thumbnail": "images/snack.jpg",
       "description": "학교 안을 누비며 친구들과 선생님과 선생님의 방해를 피해 함께 간식을 모으는 협동 캐주얼 게임입니다.",
       "genre": "캐주얼 파티 액션",
       "platform": "PC",
@@ -77,38 +171,6 @@
         "video": "https://www.youtube.com/watch?v=WFBi6yIwSMA",
         "github": "https://github.com/jintg0821/Operation-Snackstorm.git",
         "document": "https://app.notion.com/p/227e01248cf980289eb2ec7ec4651673?v=227e01248cf980b0acb9000c0b3f20af"
-      }
-    },
-    {
-      "id": "legacy-of-dungeon",
-      "title": "Legacy of Dungeon",
-      "thumbnail": "images/sprite.jpg",
-      "description": "100년 전 대전쟁의 잔재가 독자적인 생태계로 진화한 미지의 던전을 탐험하는 로그라이크 게임입니다.",
-      "genre": "액션, 전략",
-      "platform": "PC",
-      "period": "2026.04 ~ 진행 중",
-      "team": {
-        "size": 4,
-        "myRole": "아트, QA"
-      },
-      "contributions": [
-        "몬스터 스프라이트 제작",
-        "카드 이미지 제작",
-        "트레일러 영상 제작",
-        "게임 QA"
-      ],
-      "problemSolving": [
-        {
-          "problem": "몬스터 이미지 제작 시 게임의 전반적인 느낌하고 부자연스러운 부분이 자주 보였음 (AI 사용으로 인해서)",
-          "solution": "임시 방편으로 게임의 Placeholder 몬스터 디자인을 직접 그림.",
-          "result": "괴리감이 덜 해짐"
-        }
-      ],
-      "links": {
-        "play": "https://store.onstove.com/ko/games/104874",
-        "video": "https://www.youtube.com/watch?v=ciVHZtjWxMw",
-        "github": "https://github.com/Taehyeon88/Graduation-project.git",
-        "document": "https://drive.google.com/drive/folders/154B8CXfhegyMfTWuWTuAdZtaYTVfkj2K"
       }
     }
   ]
